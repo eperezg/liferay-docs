@@ -18,21 +18,21 @@ AlloyEditor is built on `React.js` and uses `jsx` to render each button in the
 editor. Below is the folder structure for a module that adds a new button:
 
 - `frontend-editor-my-button-web`
-	- `src`
-	    - `main`
-	        - `java`
-                    - `com/liferay/frontend/editor/my/button/web/`
-		        - `editor`
-			    - `configuration`
-			        - `AlloyEditorMyButtonConfigContributor.java`
-			- `servlet`
-			    - `taglib`
-			        - `AlloyEditorMyButtonDynamicInclude.java`
-		- `resources`
-		    - `META-INF`
-		        - `resources`
-			    - `js`
-			        - `my_button.jsx`
+    - `src`
+        - `main`
+            - `java`
+                - `com/liferay/frontend/editor/my/button/web/`
+                    - `editor`
+                        - `configuration`
+                            - `AlloyEditorMyButtonConfigContributor.java`
+                    - `servlet`
+                        - `taglib`
+                            - `AlloyEditorMyButtonDynamicInclude.java`
+            - `resources`
+                - `META-INF`
+                    - `resources`
+                        - `js`
+                            - `my_button.jsx`
 
 	- `.babelrc` - needed since `JSX` is being compiled
 
